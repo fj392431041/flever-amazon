@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: flever-amazon #服务名称
+  cloud:
+      config:
+        name: flever-config #配置文件
+        profile: dev
+        label: master #配置文件所在分支
+        uri: http://localhost:8084/ #配置服务中心
