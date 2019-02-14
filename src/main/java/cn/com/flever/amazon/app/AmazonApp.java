@@ -14,7 +14,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-
+@SpringBootApplication
 public class AmazonApp extends BaseApp {
 
   public static void main(String[] args){

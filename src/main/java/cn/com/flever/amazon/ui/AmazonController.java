@@ -9,7 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("amazon")
 public class AmazonController {
 
-
+  @RequestMapping("/hello")
+  public String syaHi()
+  {
+    return "hello  amazon";
+  }
 
 
 }

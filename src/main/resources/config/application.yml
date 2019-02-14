@@ -1,11 +1,5 @@
-
+spring:
+  application:
+    name: flever-amazon
 server:
-  port: 8083 #启动端口号
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    register-with-eureka: true #是否注册到eureka服务器
-    fetch-registry: true #是否可检索
-    service-url:
-      defaultZone: http://localhost:8081/eureka/ #服务中心
+  port: ${flever.port.amazon} #启动端口号
